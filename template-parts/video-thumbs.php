@@ -7,8 +7,6 @@ if (file_exists(VIDEOS_DATA_PATH)) {
 } else {
     $videos = array();
 }
-
-$contact_page_url = get_permalink(wc_get_page_id('contacto'));
 ?>
 
 <section class="video-thumbs d-none d-lg-block">
@@ -19,7 +17,10 @@ $contact_page_url = get_permalink(wc_get_page_id('contacto'));
                 <h2>Nuestro trabajo</h2>
             </div>
             <div>
-                <a class="btn btn-secondary d-none d-lg-inline-block" href="<?php echo esc_url($contact_page_url); ?>">
+                <a 
+                    class="btn btn-secondary d-none d-lg-inline-block" 
+                    href="<?php echo get_permalink( get_page_by_path('contacto') ); ?>"
+                >
                     Contacto <i class="fa-solid fa-chevron-right"></i>
                 </a>
 
@@ -33,7 +34,8 @@ $contact_page_url = get_permalink(wc_get_page_id('contacto'));
                         class="w-100" 
                         controls 
                         preload="metadata">
-                        <source src="<?php echo esc_url(get_template_directory_uri() . '/assets/videos/' . $video); ?>" type="video/mp4">
+                        <source src="<?php echo esc_url(get_template_directory_uri() . '/assets/videos/' . $video); ?>" type="video/mp4"
+                    >
                         Your browser does not support the video tag.
                     </video>
                 </div>

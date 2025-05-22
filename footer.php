@@ -7,7 +7,7 @@ get_template_part('template-parts/whatsapp-link');
     <div class="container">
         <small>
             <?php echo get_bloginfo('name'); ?> © <?php echo date("Y"); ?> | Todos los derechos reservados |
-            Sitio desarrollado por <a  href="https://creativo.com.uy/" target="_blank">Creativo Multimedia</a>
+            Desarrollo: <a  href="https://creativo.com.uy/" target="_blank">Creativo Multimedia</a>
         </small>
         <?php dynamic_sidebar('footer-1'); ?>
     </div>

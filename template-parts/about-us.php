@@ -5,9 +5,11 @@
                 <h4>Acerca de Nosotros</h4>
                 <p><?php echo get_bloginfo('description'); ?></p>
                 <a 
-                    href="<?php get_permalink(get_page_by_path('contacto')->ID); ?>" 
+                    href="<?php echo get_permalink( get_page_by_path('contacto') ); ?>"
                     class="btn btn-primary"
-                >Consúltenos <i class="far fa-comment"></i></a>
+                >
+                    Consúltenos <i class="far fa-comment"></i>
+                </a>
             </div>
         </div>
     </article>
