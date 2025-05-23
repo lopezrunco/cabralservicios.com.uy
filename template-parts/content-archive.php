@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container fade-in delay-level2">
     <div class="post my-5">
         <div class="media">
             <img width="200px" class="mr-3 img-fluid post-thumb d-none d-md-flex border-radius" src="<?php the_post_thumbnail_url('thumbnail'); ?>" alt="image">

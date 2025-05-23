@@ -1,5 +1,5 @@
 <section>
-    <article class="container">
+    <article class="container fade-in delay-level2">
         <?php
         // Check if it's a single blog post page and show content accordingly.
         if (is_single() && !is_product()) :

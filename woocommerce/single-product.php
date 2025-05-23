@@ -22,7 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 get_header( 'shop' ); ?>
 
 <section>
-    <div class="container">
+    <div class="container fade-in delay-level2">
         <?php
             /**
              * woocommerce_before_main_content hook.

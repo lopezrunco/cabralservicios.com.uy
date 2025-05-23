@@ -3,7 +3,7 @@ get_header();
 ?>
 
 <section>
-    <article class="container">
+    <article class="container fade-in delay-level2">
         <div class="row text-center">
             <div class="col-lg-6">
                 <h1 class="text-center not-found-title">404!</h1>

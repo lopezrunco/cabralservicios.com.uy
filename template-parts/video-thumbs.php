@@ -10,7 +10,7 @@ if (file_exists(VIDEOS_DATA_PATH)) {
 ?>
 
 <section class="video-thumbs d-none d-lg-block">
-    <article class="container">
+    <article class="container fade-in delay-level2">
         <div class="section-title-more">
             <div>
                 <span class="top-title">Vea nuestros equipos en funcionamiento</span>

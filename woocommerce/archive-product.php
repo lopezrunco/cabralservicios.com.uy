@@ -30,7 +30,7 @@ get_header('shop');
 do_action('woocommerce_before_main_content');
 ?>
 <section>
-    <div class="container">
+    <div class="container fade-in delay-level2">
         <div class="row">
             <div class="col-lg-8 col-xl-9">
                 <?php

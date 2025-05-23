@@ -6,8 +6,8 @@ if (file_exists(SERVICES_DATA_PATH)) {
 	$services = json_decode($json_data);
 ?>
 
-	<section class="featured-services bg-light">
-		<article class="container">
+	<section class="featured-services bg-light overflow-hidden">
+		<article class="container fade-in delay-level2">
 			<div class="row">
 				<?php foreach ($services as $service) : ?>
 					<div class="col-lg-4 mb-4 p-5">

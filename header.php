@@ -30,14 +30,14 @@
 <body>
     <header class="fixed-top">
         <nav class="navbar navbar-expand-xl bg-white py-lg-0">
-            <div class="container py-4">
+            <div class="container py-4 fade-in delay-level1">
                 <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>">
                     <img class="main-logo" alt="Logo de Cabral" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" />
                 </a>
                 <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa-solid fa-bars menu-icon"></i>
                 </button>
-                <div class="collapse navbar-collapse py-3 justify-content-end" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse py-3 pt-5 pt-lg-3 justify-content-end" id="navbarSupportedContent">
 
                     <?php
                     // Main menu
@@ -60,7 +60,7 @@
     <div class="main-wrapper">
         <?php if (!is_front_page() && !is_404()) : ?>
             <header class="page-title">
-                <div class="container">
+                <div class="container fade-in delay-level2">
                     <p class="heading">
                         <i class="me-3 fa-solid fa-location-dot"></i> Inicio |
                         <?php

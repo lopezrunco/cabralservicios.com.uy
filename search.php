@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <section class="search-results">
-    <article class="container">
+    <article class="container fade-in delay-level2">
         <div class="row">
             <?php
             if (class_exists('WooCommerce') && is_search()) {

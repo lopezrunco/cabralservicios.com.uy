@@ -1,5 +1,5 @@
 <section class="product-grid">
-	<article class="container">
+	<article class="container fade-in delay-level2">
 		<?php
 		$latest_products = wc_get_products(
 			array(

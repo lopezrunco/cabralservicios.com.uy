@@ -7,7 +7,7 @@ if (file_exists(COMPANY_DATA_PATH)) {
 ?>
 
 <section class="bottom">
-    <article class="container">
+    <article class="container fade-in delay-level2">
         <div class="row">
             <div class="col-lg-4 mb-5 mb-lg-0 bottom-column">
                 <h4>Teléfonos</h4>

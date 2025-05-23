@@ -9,7 +9,7 @@ require_once('wp-load.php');
 ?>
 
 <section class="news-grid">
-    <article class="container">
+    <article class="container fade-in delay-level2">
         <div class="row">
             <?php
             // Set up pagination

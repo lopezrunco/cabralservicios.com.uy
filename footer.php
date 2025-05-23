@@ -4,7 +4,7 @@ get_template_part('template-parts/whatsapp-link');
 ?>
 
 <footer class="footer py-3 bg-dark">
-    <div class="container">
+    <div class="container fade-in delay-level2">
         <small>
             <?php echo get_bloginfo('name'); ?> © <?php echo date("Y"); ?> | Todos los derechos reservados |
             Desarrollo: <a  href="https://creativo.com.uy/" target="_blank">Creativo Multimedia</a>
