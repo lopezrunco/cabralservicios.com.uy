@@ -36,7 +36,7 @@ if (file_exists(VIDEOS_DATA_PATH)) {
                         preload="metadata">
                         <source src="<?php echo esc_url(get_template_directory_uri() . '/assets/videos/' . $video); ?>" type="video/mp4"
                     >
-                        Your browser does not support the video tag.
+                        Su navegador no soporta el elemento de video.
                     </video>
                 </div>
             <?php endforeach; ?>
